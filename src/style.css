@@ -13,7 +13,11 @@ html {
   h1{
     font-size:2rem;
   }
-  
+
+  h3{
+    font-weight: normal;
+    font-size: 1rem;
+  }
   p{
      text-align: center 
   }
@@ -45,10 +49,18 @@ html {
   .aprobado{
      text-align: center 
   }
+
+  .aprobado img{
+      max-width: 40px;
+  }
   
   .invalida{
      text-align: center 
   }
+
+  .invalida img{
+    max-width: 40px;
+}
   
   .hide{
       display: none;
@@ -59,9 +71,25 @@ html {
       font-weight: 600;
       font-size: 20px;
       color: #ffffff;
-      background-color: #1883ba;
+      background-color: #6f82a3;
       border-radius: 6px;
       border: 2px solid #0016b0;
     }
   
+    .principal, .validador, .aprobado, .invalida{
+        -webkit-box-shadow: 14px -16px 0px 0px #8190a9;
+        -moz-box-shadow: 14px -16px 0px 0px #8190a9;
+        box-shadow: 14px -16px 0px 0px #8190a9;
+        background-color: #001a45;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 40%;
+        color: white;
+    }
+
+
+
+
+
   

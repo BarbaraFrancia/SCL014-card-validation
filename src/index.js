@@ -9,7 +9,7 @@ function siguiente() {
     rut = rut.split('.').join('');
     rut = rut.split('-').join('');
 
-    console.log(rut.length);
+    //console.log(rut.length);
  /*    rut = parseInt(rut);
     console.log(rut); */
     
