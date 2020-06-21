@@ -5,66 +5,52 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@100;200;300;400;700&display=swap" rel="stylesheet">
-	<title> Validador TDC </title>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+	<title> Validador TDC</title>
 </head>
 
 
 <body class="main">
-
 	<header>
 		<div id="img-logo" class="logo">
 			<img src="logo1.png" alt="Validador TDC">
-        
-      </div>
+    </div>
   </header>
     <div id="principal" class="principal">
         <h1>Bienvenido al Validador TDC de casas comerciales</h1>
-
-
         <label for="rut">Rut :</label><br>
         <input type="text" id="rut"><br><br>
         <button id="enviar" type="submit" class="btn">Enviar</button>
-
         <h3>El validador de tarjetas de crédito más confiable y seguro para realizar tus transacciones.</h3>
-
     </div>
 
     <div id="validador" class="validador hide">
-
         <h2> El formulario debe ser llenado completo.</h2>
-       
-            <label for="card">Número de tarjeta:</label><br>
-            
-            <input type="text" placeholder="0000 0000 0000 0000" id="card"><br><br>
-
-            <button id="validartarjeta" type="submit" class="btn">Validar Tarjeta</button>
-        
+        <label for="card">Número de tarjeta:</label><br>
+        <input type="number" placeholder="0000 0000 0000 0000" id="card"><br><br>
+        <button id="validartarjeta" type="submit" class="btn">Validar Tarjeta</button>
     </div>
 
     <div id="aprobado" class="aprobado hide">
-        <h2>Datos de usuario verificados de manera exitosa</h2> <br/> 
-        <img src="check.svg" alt="aprobado"> <br/>
-        <p id="valido"></p>
-        <p>Se realizó compra de manera segura</p>
-
+        <h2>Datos de usuario verificados de manera exitosa</h2>
+        <h3>Se realizó compra de manera segura</h3>
+        <button id="volver" class="btn">Volver</button>
     </div>
 
     <div id="invalida" class="invalida hide">
-        <h2>Datos de usuario son incorrectos</h2> <br/>
-        <img src="cancel-mark.svg" alt="invalida"> <br/>
-        <p id="invalido"></p>
-        <p>Por favor ingrese sus datos nuevamente</p>
-
+        <h2>Datos de usuario son incorrectos</h2>
+        <h3>Por favor ingrese sus datos nuevamente</h3>
+        <button id="volverin" class="btn">Volver</button>
     </div>
 
-    <footer> <h5>Política de Privacidad: todos los datos ingresados en este formulario fueron validados y cifrados de manera
-        segura, son medidas tomadas para protegerlos. <br>
-        Asimismo, los datos no son usados para uso de fraude, ni robo.</h5>
+    <footer>
+      <h6>Política de Privacidad: todos los datos ingresados en este formulario fueron validados y cifrados de manera
+        segura, son medidas tomadas para protegerlos. Asimismo, los datos no son usados para uso de fraude, ni robo.</h6>
     </footer>
 
-    <script src="index.js"></script>
     <script src="validator.js"></script>
+    <script src="index.js"></script>
+    
 </body>
 
 </html>
