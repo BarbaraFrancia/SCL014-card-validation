@@ -5,7 +5,7 @@ function maskify(cc) {
     for (var i = (cc.length) - 4; i > 0; i--) {
       enmascarado += '#';
     }
-    alert(enmascarado + visibles);
+    return enmascarado + visibles;
   }
   
   function validarTarjeta(cardNumber) {

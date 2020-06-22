@@ -41,12 +41,14 @@ function validar() {
     maskify(cardNumber);
     document.getElementById('validador').classList.add('hide');
     document.getElementById('invalida').classList.remove('hide');
+    document.getElementById("invalido").innerHTML = (maskify(cardNumber));
 
   } else {
     alert('Tarjeta Válida');
     maskify(cardNumber);
     document.getElementById('validador').classList.add('hide');
     document.getElementById('aprobado').classList.remove('hide');
+    document.getElementById("valido").innerHTML = (maskify(cardNumber));
   }
 }
 
