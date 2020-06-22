@@ -1,3 +1,5 @@
 node_modules
 .vscode
 coverage
+.eslintrc.yml
+.eslintrc.json
