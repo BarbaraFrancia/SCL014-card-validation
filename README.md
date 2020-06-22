@@ -19,6 +19,10 @@ iv. Nos comentaron que faltaba colocar un contenedor, un botón para regresar de
 
 ![BocetoPapelBarbara2](https://github.com/BarbaraFrancia/SCL014-card-validation/blob/master/BocetopapelBarbara2.jpg?raw=true)
 
-![BocetoGoogle](https://github.com/BarbaraFrancia/SCL014-card-validation/blob/master/BocetoGoogle.pdf?raw=true)
+![BocetoGoogle1](https://github.com/BarbaraFrancia/SCL014-card-validation/blob/master/BocetoGoogle1.jpg?raw=true)
+
+![BocetoGoogle2](https://github.com/BarbaraFrancia/SCL014-card-validation/blob/master/BocetoGoogle2.jpg?raw=true)
+
+![BocetoGoogle3](https://github.com/BarbaraFrancia/SCL014-card-validation/blob/master/BocetoGoogle3.jpg?raw=true)
 
 ![PrototipoInvision](https://github.com/BarbaraFrancia/SCL014-card-validation/blob/master/Prototipo.png?raw=true)
