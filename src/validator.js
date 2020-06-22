@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-function maskify(cc) {
+/* eslint-disable no-undef */
+var maskify= function(cc) {
    let visibles = cc.slice(-4),
     enmascarado = '';
   
@@ -9,7 +10,7 @@ function maskify(cc) {
     return enmascarado + visibles;
   }
   
-  function validarTarjeta(cardNumber) {
+  var validarTarjeta= function (cardNumber) {
     console.log(cardNumber);
   
     // JUNTAR NUMEROS
@@ -77,6 +78,14 @@ function maskify(cc) {
       
       return total;
     }
+  }
+  var isValid = function(cardNumber) {
+    return validarTarjeta(cardNumber) == 0;
+  }
+  module.exports = {
+    maskify,
+    validarTarjeta,
+    isValid
   }
   
 
