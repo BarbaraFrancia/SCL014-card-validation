@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 var enviar = document.getElementById('enviar');
 enviar.addEventListener("click", siguiente);
 // SCOPE

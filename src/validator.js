@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 function maskify(cc) {
-    visibles = cc.slice(-4),
-      enmascarado = '';
+   let visibles = cc.slice(-4),
+    enmascarado = '';
   
     for (var i = (cc.length) - 4; i > 0; i--) {
       enmascarado += '#';
@@ -27,7 +28,7 @@ function maskify(cc) {
       var largoNumeros = cardNumber.length;
       var validador = 0;
   
-      for (i = 0; i < largoNumeros; i++) {
+      for (var i = 0; i < largoNumeros; i++) {
         carray[i] = cardNumber.charAt(i);
       }
   
@@ -51,7 +52,7 @@ function maskify(cc) {
   
             //SI ES MAYOR O IGUAL A 10 SUMAR DIGITOS DEL RESULTADO
   
-            var number = number.toString().split('').map(Number).reduce(function (a, b) {
+          number = number.toString().split('').map(Number).reduce(function (a, b) {
               return a + b;
             }, 0);
   
@@ -77,5 +78,6 @@ function maskify(cc) {
       return total;
     }
   }
+  
 
 
